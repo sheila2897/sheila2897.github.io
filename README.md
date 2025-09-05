@@ -129,7 +129,7 @@ La Base de datos en la nube donde se almacenan los datos procesados desde múlti
 ---
 
 # 🧩 Application Layer – Capa de Aplicación  
-**Pantalla de Inicio / Bienvenida**
+***Pantalla de Inicio / Bienvenida***
 
 ### 🎯 Propósito
 
@@ -156,8 +156,6 @@ Servir como punto de entrada principal para los usuarios del sistema comercial d
 CAPTURA DE PANTALLA BIENVENIDA
 
 ## 🛒 Pantalla de Ventas
-
----
 
 ### 🎯 Propósito
 
