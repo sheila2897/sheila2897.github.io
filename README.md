@@ -65,7 +65,7 @@ Los permisos se administran con roles definidos en **Azure**, **Power Apps** y *
 
 ---
 
-# 🗄️ Data Layer – Capa de Datos  
+# Data Layer – Capa de Datos  
 **Descripción de la Base de Datos – Proyecto Grupo AJE**
 
 La base de datos para el sistema de gestión comercial del Grupo AJE ha sido diseñada para administrar de manera integral las operaciones de ventas, distribución y promociones de bebidas. Su modelo relacional permite consolidar información de clientes, trabajadores, productos y pedidos, con el fin de garantizar un control eficiente de la operación y habilitar análisis estratégicos en múltiples mercados.
@@ -118,6 +118,9 @@ Clasifica los roles del personal (ejecutivo de ventas, supervisor, repartidor, a
 
 ### 📄 Tipo_documento  
 Define los tipos de documentos aceptados (DNI, RUC, pasaporte, carnet de extranjería), estandarizando el registro de clientes y trabajadores.
+
+**Modelo de datos en Azure SQL**
+La Base de datos en la nube donde se almacenan los datos procesados desde múltiples orígenes.
 
 ---
 
