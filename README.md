@@ -66,7 +66,7 @@ Los permisos se administran con roles definidos en **Azure**, **Power Apps** y *
 ---
 
 # Data Layer – Capa de Datos  
-**Descripción de la Base de Datos – Proyecto Grupo AJE**
+### Descripción de la Base de Datos – Proyecto Grupo AJE**
 
 La base de datos para el sistema de gestión comercial del Grupo AJE ha sido diseñada para administrar de manera integral las operaciones de ventas, distribución y promociones de bebidas. Su modelo relacional permite consolidar información de clientes, trabajadores, productos y pedidos, con el fin de garantizar un control eficiente de la operación y habilitar análisis estratégicos en múltiples mercados.
 
@@ -155,11 +155,135 @@ Servir como punto de entrada principal para los usuarios del sistema comercial d
 
 CAPTURA DE PANTALLA BIENVENIDA
 
-## 🛒 Pantalla de Ventas
+## 🛒 Pantalla de Pedido
 
 ### 🎯 Propósito
 
 Registrar y visualizar las ventas realizadas, incluyendo el detalle del proceso de **buyback** (canje de equipo), asegurando trazabilidad, eficiencia operativa y consistencia en la gestión comercial.
+
+### Funcionalidades
+
+## 🛒 Pantalla de Producto
+
+### 🎯 Propósito
+
+Registrar y visualizar las ventas realizadas, incluyendo el detalle del proceso de **buyback** (canje de equipo), asegurando trazabilidad, eficiencia operativa y consistencia en la gestión comercial.
+
+### Funcionalidades
+
+## 🛒 Pantalla de Cliente
+
+### 🎯 Propósito
+
+Registrar y visualizar las ventas realizadas, incluyendo el detalle del proceso de **buyback** (canje de equipo), asegurando trazabilidad, eficiencia operativa y consistencia en la gestión comercial.
+
+### Funcionalidades
+
+## 🛒 Pantalla de Canal de cliente
+
+### 🎯 Propósito
+
+Registrar y visualizar las ventas realizadas, incluyendo el detalle del proceso de **buyback** (canje de equipo), asegurando trazabilidad, eficiencia operativa y consistencia en la gestión comercial.
+
+### Funcionalidades
+
+## 🛒 Pantalla de Marca de producto
+
+### 🎯 Propósito
+
+Registrar y visualizar las ventas realizadas, incluyendo el detalle del proceso de **buyback** (canje de equipo), asegurando trazabilidad, eficiencia operativa y consistencia en la gestión comercial.
+
+### Funcionalidades
+
+## 🛒 Pantalla de Vendedores
+
+### 🎯 Propósito
+
+Registrar y visualizar las ventas realizadas, incluyendo el detalle del proceso de **buyback** (canje de equipo), asegurando trazabilidad, eficiencia operativa y consistencia en la gestión comercial.
+
+### Funcionalidades
+
+---
+
+# ETL Layer (Capa de extracción, transformación y carga)
+### Descripción General**
+
+Este sistema implementa un flujo de datos automatizado y eficiente, integrando múltiples capas tecnológicas dentro del ecosistema **Microsoft**. El objetivo es garantizar la correcta ingesta, transformación y disponibilidad de la información para apoyar la gestión comercial, logística y la toma de decisiones estratégicas.
+
+## 1️⃣ Origen de Datos
+
+Los datos se generan principalmente desde **Power Apps**, donde los usuarios registran operaciones como:
+
+- Ventas
+- Pedidos
+- Clientes
+- Productos y marcas
+- Trabajadores
+
+📦 Esta información se almacena de forma estructurada en una base de datos relacional: **Azure SQL Database**.
+
+---
+
+## 2️⃣ Pipeline ETL – Microsoft Fabric Data Factory
+
+La orquestación del proceso ETL (Extracción, Transformación y Carga) se gestiona mediante **Microsoft Fabric Data Factory**, con el objetivo de consolidar los datos en el **Fabric Data Warehouse** para análisis posterior.
+
+### 🔁 Flujo del pipeline `pl_update_table`:
+
+- **Extracción**  
+  Obtiene datos desde las tablas transaccionales:
+  - Pedido
+  - Detalle de Pedido
+  - Cliente
+  - Producto
+  - Promoción
+  - Trabajador
+
+- **Transformación**  
+  Aplica procesos de:
+  - Limpieza
+  - Estandarización
+  - Enriquecimiento  
+  Utilizando **Dataflows** para asegurar calidad y consistencia.
+
+- **Carga**  
+  Inserta la información transformada en el **Fabric Data Warehouse**, optimizada para análisis comercial y estratégico.
+
+---
+
+## 3️⃣ Automatización con Notebooks en Python
+
+Una vez finalizado el pipeline, se ejecuta un **Notebook en Python** que permite:
+
+- 📊 Generar y enviar por correo electrónico un reporte diario con indicadores clave:
+  - Volumen de pedidos
+  - Clientes atendidos
+  - Monto total vendido
+
+- 📧 Notificar el estado del proceso ETL (ejecución exitosa o errores detectados)
+
+- 🔍 Asegurar trazabilidad y transparencia en la actualización de datos
+
+---
+
+## 4️⃣ Seguridad y Ejecución Programada
+
+El flujo completo se ejecuta de forma **segura, programada y sin intervención manual**, utilizando:
+
+- 🔐 Credenciales protegidas
+- ⏰ Reglas de ejecución automática
+
+🕕 El pipeline `pl_update_table` corre todos los días a las **6:00 a.m.**, garantizando que los reportes y tableros en **Power BI** cuenten siempre con información actualizada.
+
+---
+
+> 💡 Este diseño permite escalar el sistema, mantener la integridad de los datos y ofrecer insights confiables para la toma de decisiones estratégicas.
+
+
+
+
+
+
 
 
 
