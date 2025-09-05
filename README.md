@@ -40,15 +40,34 @@ Este proyecto implementa una solución de negocio moderna utilizando herramienta
 
 ## 🚀 Diagrama de Arquitectura del Proyecto
 
-![Arquitectura del Proyecto](assets/arquitectura.png)
+<img width="1325" height="616" alt="image" src="https://github.com/user-attachments/assets/964c309a-0b82-4840-aefe-24d5a340fa73" />
+
+### 📁 Data Sources  
+La información se origina en archivos Excel y en un sistema de escritorio con base de datos propia. Estos insumos se incorporan al ecosistema mediante procesos manuales o parcialmente automatizados.
+
+### 🗄️ Data Layer  
+Toda la información se consolida en **Azure SQL**, funcionando como repositorio relacional en la nube. Además, se registran datos capturados desde aplicaciones desarrolladas en **Power Apps**.
+
+### 🧩 Application Layer  
+La interacción con los usuarios se gestiona a través de **Power Apps**, que ofrece una interfaz intuitiva para la carga, modificación y consulta de datos, integrada de forma nativa con Azure.
+
+### 🔄 ETL Layer  
+Con **Microsoft Fabric** (Dataflows y Pipelines) se automatiza la ingesta y transformación de datos hacia el Data Warehouse. Asimismo, se emplean **Notebooks en Python** para ejecutar validaciones y generar notificaciones por correo electrónico.
+
+### 🧱 Data Warehouse Layer  
+Los datos procesados se almacenan en un **Fabric Data Warehouse**, diseñado para consolidar información y habilitar análisis avanzados de manera eficiente.
+
+### 📊 Presentation Layer  
+Los usuarios acceden a reportes dinámicos mediante **Power BI Service** y consultas en **Excel**, favoreciendo la toma de decisiones en tiempo real.
+
+### 🔐 User Access  
+Los permisos se administran con roles definidos en **Azure**, **Power Apps** y **Power BI**. Además, se envían notificaciones automáticas por correo tras cada actualización, asegurando trazabilidad y comunicación efectiva.
 
 ---
 
 ## 🗂️ Estructura del Repositorio
 
 
-
-<img width="1325" height="616" alt="image" src="https://github.com/user-attachments/assets/964c309a-0b82-4840-aefe-24d5a340fa73" />
 
 
 
