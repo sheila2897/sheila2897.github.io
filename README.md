@@ -1,5 +1,3 @@
-prueba
-Proyecto Grupo02
 Grupo Aje
 Building Cloud Business Applications for Grupo Aje
 📌 Descripción General del Proyecto - Arquitectura de Datos para Grupo Aje
