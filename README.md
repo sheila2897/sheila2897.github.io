@@ -55,7 +55,7 @@ La interacción con los usuarios se gestiona a través de **Power Apps**, que of
 Con **Microsoft Fabric** (Dataflows y Pipelines) se automatiza la ingesta y transformación de datos hacia el Data Warehouse. Asimismo, se emplean **Notebooks en Python** para ejecutar validaciones y generar notificaciones por correo electrónico.
 
 ### 🧱 Data Warehouse Layer  
-Los datos procesados se almacenan en un **Fabric Data Warehouse**, diseñado para consolidar información y habilitar análisis avanzados de manera eficiente.
+Los datos procesados se almacenan en un Fabric Data Warehouse, diseñado para consolidar información y habilitar análisis avanzados de manera eficiente. Además, se integra Power Automate para ejecutar flujos automáticos que distribuyen reportes, envían alertas y activan aprobaciones tras la actualización de datos, asegurando trazabilidad y respuesta oportuna.
 
 ### 📊 Presentation Layer  
 Los usuarios acceden a reportes dinámicos mediante **Power BI Service** y consultas en **Excel**, favoreciendo la toma de decisiones en tiempo real.
@@ -65,7 +65,67 @@ Los permisos se administran con roles definidos en **Azure**, **Power Apps** y *
 
 ---
 
-## 🗂️ Estructura del Repositorio
+# 🗄️ Data Layer – Capa de Datos  
+**Descripción de la Base de Datos – Proyecto Grupo AJE**
+
+La base de datos para el sistema de gestión comercial del Grupo AJE ha sido diseñada para administrar de manera integral las operaciones de ventas, distribución y promociones de bebidas. Su modelo relacional permite consolidar información de clientes, trabajadores, productos y pedidos, con el fin de garantizar un control eficiente de la operación y habilitar análisis estratégicos en múltiples mercados.
+
+La estructura se encuentra normalizada y distribuida en las siguientes tablas principales:
+
+---
+
+### 📦 Pedido  
+Registra los pedidos realizados por los clientes, incluyendo la fecha, trabajador asociado, canal de venta, tipo de formato y las condiciones de entrega.
+
+### 📑 Detalle_pedido  
+Contiene la información específica de cada pedido, relacionando productos, cantidades, precios unitarios, descuentos y promociones aplicadas.
+
+### 🧍 Cliente  
+Almacena los datos de los clientes, considerando tipo de documento, identificación, nombre, contacto y canal de compra asociado. Facilita la segmentación comercial y la personalización de campañas.
+
+### 🏪 Canal_cliente  
+Clasifica el origen de los pedidos (tienda física, distribuidor, mayorista, autoservicio, e-commerce, etc.), permitiendo análisis comparativos entre canales de venta.
+
+### 🥤 Producto  
+Centraliza la información de cada producto, vinculando marca, categoría y formato. Incluye atributos como nombre, código, capacidad y precio base.
+
+### 🏷️ Marca_producto  
+Agrupa los productos según la marca (ejemplo: Big Cola, Cielo, Pulp, Sporade), lo que permite medir participación de mercado por línea de negocio.
+
+### 📂 Categoría_producto  
+Clasifica los productos en familias (gaseosas, agua, jugos, energizantes, etc.) para facilitar la gestión de portafolio y análisis de rentabilidad por categoría.
+
+### 📦 Formato_producto  
+Describe la presentación del producto (ejemplo: botella 500ml, pack 6 unidades, lata 355ml), clave para análisis logísticos y comerciales.
+
+### 🧾 Tipo_formato  
+Define y estandariza los tipos de formatos (individual, familiar, multipack), asegurando consistencia en la gestión de inventario y ventas.
+
+### 💳 Tipo_pago  
+Lista los métodos de pago disponibles (efectivo, tarjeta, transferencia, crédito comercial), estandarizando las transacciones y la conciliación contable.
+
+### 🎟️ Promoción  
+Gestiona las promociones vigentes, especificando condiciones, productos aplicables, descuentos y vigencia.
+
+### 🏷️ Tipo_promoción  
+Estandariza los tipos de promociones (descuentos directos, combos, 2x1, bonificaciones) para facilitar el análisis de efectividad comercial.
+
+### 🧑‍💼 Trabajador  
+Contiene la información del personal que participa en el proceso de ventas, incluyendo datos personales, cargo y sede asignada.
+
+### 📌 Cargo_trabajador  
+Clasifica los roles del personal (ejecutivo de ventas, supervisor, repartidor, administrativo), permitiendo evaluar desempeño por función.
+
+### 📄 Tipo_documento  
+Define los tipos de documentos aceptados (DNI, RUC, pasaporte, carnet de extranjería), estandarizando el registro de clientes y trabajadores.
+
+---
+
+## 🧭 Sugerencia de ubicación en GitHub Pages
+
+Puedes incluir esta sección como parte de tu `README.md` principal o crear una subpágina dedicada a la **Capa de Datos**. Por ejemplo:
+
+
 
 
 
