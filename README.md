@@ -131,24 +131,20 @@ La Base de datos en la nube donde se almacenan los datos procesados desde múlti
 # 🧩 Application Layer – Capa de Aplicación  
 **Pantalla de Inicio / Bienvenida**
 
----
-
 ### 🎯 Propósito
 
 Servir como punto de entrada principal para los usuarios del sistema comercial del Grupo AJE, facilitando el acceso centralizado a todas las funcionalidades mediante una interfaz moderna, clara e intuitiva.
-
----
 
 ### 🧰 Funcionalidades
 
 - **Presentación visual** con el logotipo corporativo del Grupo AJE y/o el nombre de la aplicación.
 - **Menú central** con botones o íconos de navegación que dirigen a las pantallas principales del sistema:
 
-  - 🧍 **Cliente**  
   - 🛒 **Pedido**  
-  - 🥤 **Producto**  
+  - 🥤 **Producto**
+  - 🧍 **Cliente**
+  - 🏪 **Canal de Cliente**      
   - 🏷️ **Marca de Producto**  
-  - 🏪 **Canal de Cliente**  
   - 👔 **Vendedores**
 
 - **Diseño responsive** y visualmente atractivo, adaptable a dispositivos móviles y escritorios.
@@ -157,12 +153,15 @@ Servir como punto de entrada principal para los usuarios del sistema comercial d
 
 ---
 
-### 🖼️ Sugerencia de visualización
+CAPTURA DE PANTALLA BIENVENIDA
 
-Puedes incluir una captura de pantalla o mockup de la interfaz en la carpeta `/assets` y referenciarla así:
+## 🛒 Pantalla de Ventas
 
-```markdown
-![Pantalla de Inicio](assets/pantalla_inicio.png)
+---
+
+### 🎯 Propósito
+
+Registrar y visualizar las ventas realizadas, incluyendo el detalle del proceso de **buyback** (canje de equipo), asegurando trazabilidad, eficiencia operativa y consistencia en la gestión comercial.
 
 
 
