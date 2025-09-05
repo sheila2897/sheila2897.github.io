@@ -122,13 +122,13 @@ Define los tipos de documentos aceptados (DNI, RUC, pasaporte, carnet de extranj
 ### 📄 Tipo_documento  
 La Base de datos en la nube donde se almacenan los datos procesados desde múltiples orígenes.
 
-### Modelo de datos en Azure SQL
+## Modelo de datos en Azure SQL
 La Base de datos en la nube donde se almacenan los datos procesados desde múltiples orígenes.
 
 
 ---
 
-## 🧩 Application Layer – Capa de Aplicación  
+# 🧩 Application Layer – Capa de Aplicación  
 **Pantalla de Inicio / Bienvenida**
 
 ---
