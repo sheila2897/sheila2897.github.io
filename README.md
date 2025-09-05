@@ -279,20 +279,95 @@ El flujo completo se ejecuta de forma segura, programada y sin intervención man
 Notebook: Envio1Final
 
 <img width="1442" height="682" alt="image" src="https://github.com/user-attachments/assets/9fcd4d8e-4ec0-476a-b325-d53ec507cef3" />
+
 <img width="1443" height="680" alt="image" src="https://github.com/user-attachments/assets/d9c35679-762e-4632-ae1f-597e2d846b41" />
+
 <img width="1439" height="679" alt="image" src="https://github.com/user-attachments/assets/a4853cf9-7212-4418-a486-743d45a8ae30" />
+
 <img width="1436" height="678" alt="image" src="https://github.com/user-attachments/assets/6d0006c6-b294-4b09-b97f-ae67c01930e6" />
 
+Correo electrónico de notificación del éxito del pipeline
 
+<img width="559" height="536" alt="image" src="https://github.com/user-attachments/assets/20c31dec-6d30-4a3e-8fa1-904d9676daae" />
 
+---
 
+## 🏢 Data Warehouse Layer – Capa de Almacén de Datos  
 
+### 📌 Descripción General
 
+La capa de Data Warehouse constituye el núcleo estructurado del sistema analítico de Grupo AJE. Aquí se concentran los datos procesados desde la capa ETL (gestionada con Pipelines y Dataflows en Microsoft Fabric). Una vez integrados, los datos se almacenan en un Fabric Data Warehouse, donde son normalizados, modelados y optimizados para su consulta, análisis y visualización en Power BI.
 
+---
+
+### ⚙️ Funcionalidades Clave
+
+- **Modelado de Datos**  
+  Se establecen relaciones entre tablas clave como `Pedidos`, `Clientes`, `Productos`, `Marcas`, `Promociones` y `Trabajadores`, asegurando una estructura sólida para el análisis empresarial.
+
+- **Medidas Calculadas**  
+  Se definen indicadores estratégicos como:
+  - Volumen de pedidos  
+  - Clientes atendidos  
+  - Ingresos totales  
+  - Impacto de promociones  
+  - Margen de rentabilidad
+
+- **Tabla Calendario**  
+  Implementación de una dimensión temporal que habilita análisis detallados por:
+  - Día  
+  - Semana  
+  - Mes  
+  - Trimestre  
+  - Año  
+  Además de comparaciones dinámicas entre periodos.
+
+- **Dimensiones de Negocio**  
+  Se incorporan atributos adicionales como:
+  - Categoría de producto  
+  - Canal de cliente  
+  - Tipo de pago  
+  - Formato de producto  
+  Lo que permite segmentar y analizar desde distintas perspectivas.
+
+---
+
+### 🔄 Flujos de Automatización con Power Automate
+
+Para complementar esta capa, se han desarrollado flujos en Power Automate que permiten:
+# PENDIENTE
+- 📩 Enviar reportes automáticos con métricas clave (pedidos, clientes atendidos y ventas diarias) a responsables de negocio.
+- ⏰ Programar alertas en caso de variaciones significativas en ventas o clientes.
+- 🔗 Integrar notificaciones en Microsoft Teams o correo electrónico tras cada actualización del Data Warehouse.
+- 🛠️ Reducir la intervención manual, asegurando procesos más rápidos, seguros y con menor riesgo de error.
+
+---
+
+### 📊 Beneficios
+
+- **Escalabilidad**  
+  Capacidad de crecer con el volumen de datos y expansión de nuevas líneas de negocio.
+
+- **Automatización**  
+  Procesos diarios gestionados sin intervención manual gracias a Power Automate y Fabric Pipelines.
+
+- **Trazabilidad**  
+  Registro claro de la procedencia y transformación de datos.
+
+- **Soporte a BI**  
+  Base confiable para dashboards interactivos y reportes distribuidos en Power BI.
+
+---
+
+### 🖥️ Vista en Microsoft Fabric
+
+<img width="1439" height="676" alt="image" src="https://github.com/user-attachments/assets/9740799b-8681-4b44-a951-c0bfdde044c0" />
 
 
 
 ---
+
+> 💡 Este diseño permite escalar la solución, mantener la integridad de los datos y ofrecer insights confiables para la toma de decisiones estratégicas en Grupo AJE.
 
 
 
