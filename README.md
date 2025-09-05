@@ -16,8 +16,7 @@ Gracias al uso de tecnologías en la nube como Azure SQL y Microsoft Fabric, el 
 •	Implementar Power Automate para la distribución automática de reportes, notificaciones y flujos de aprobación relacionados con la gestión de datos.
 •	Optimizar el análisis de negocio mediante reportes en Power BI.
 
-Solución de Negocio Cloud con Microsoft Fabric, Power Platform y Power BI<img width="442" height="155" alt="image" src="https://github.com/user-attachments/assets/af3f63cb-2e28-4d43-971f-899ac9664380" />
-
+Solución de Negocio Cloud con Microsoft Fabric, Power Platform y Power BI<img 
 
 
 
