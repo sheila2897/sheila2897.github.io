@@ -208,11 +208,11 @@ Registrar y visualizar las ventas realizadas, incluyendo el detalle del proceso 
 # ETL Layer (Capa de extracción, transformación y carga)
 ### Descripción General**
 
-Este sistema implementa un flujo de datos automatizado y eficiente, integrando múltiples capas tecnológicas dentro del ecosistema **Microsoft**. El objetivo es garantizar la correcta ingesta, transformación y disponibilidad de la información para apoyar la gestión comercial, logística y la toma de decisiones estratégicas.
+Este sistema implementa un flujo de datos automatizado y eficiente, integrando múltiples capas tecnológicas dentro del ecosistema Microsoft. El objetivo es garantizar la correcta ingesta, transformación y disponibilidad de la información para apoyar la gestión comercial, logística y la toma de decisiones estratégicas.
 
 ## 1️⃣ Origen de Datos
 
-Los datos se generan principalmente desde **Power Apps**, donde los usuarios registran operaciones como:
+Los datos se generan principalmente desde Power Apps, donde los usuarios registran operaciones como:
 
 - Ventas
 - Pedidos
@@ -220,15 +220,15 @@ Los datos se generan principalmente desde **Power Apps**, donde los usuarios reg
 - Productos y marcas
 - Trabajadores
 
-📦 Esta información se almacena de forma estructurada en una base de datos relacional: **Azure SQL Database**.
+📦 Esta información se almacena de forma estructurada en una base de datos relacional: Azure SQL Database.
 
 ---
 
 ## 2️⃣ Pipeline ETL – Microsoft Fabric Data Factory
 
-La orquestación del proceso ETL (Extracción, Transformación y Carga) se gestiona mediante **Microsoft Fabric Data Factory**, con el objetivo de consolidar los datos en el **Fabric Data Warehouse** para análisis posterior.
+La orquestación del proceso ETL (Extracción, Transformación y Carga) se gestiona mediante Microsoft Fabric Data Factory, con el objetivo de consolidar los datos en el Fabric Data Warehouse para análisis posterior.
 
-### 🔁 Flujo del pipeline `pl_update_table`:
+### 🔁 Flujo del pipeline `pl_tablas`:
 
 - **Extracción**  
   Obtiene datos desde las tablas transaccionales:
@@ -244,16 +244,16 @@ La orquestación del proceso ETL (Extracción, Transformación y Carga) se gesti
   - Limpieza
   - Estandarización
   - Enriquecimiento  
-  Utilizando **Dataflows** para asegurar calidad y consistencia.
+  Utilizando Dataflows para asegurar calidad y consistencia.
 
 - **Carga**  
-  Inserta la información transformada en el **Fabric Data Warehouse**, optimizada para análisis comercial y estratégico.
+  Inserta la información transformada en el Fabric Data Warehouse, optimizada para análisis comercial y estratégico.
 
 ---
 
 ## 3️⃣ Automatización con Notebooks en Python
 
-Una vez finalizado el pipeline, se ejecuta un **Notebook en Python** que permite:
+Una vez finalizado el pipeline, se ejecuta un Notebook en Python que permite:
 
 - 📊 Generar y enviar por correo electrónico un reporte diario con indicadores clave:
   - Volumen de pedidos
@@ -268,16 +268,32 @@ Una vez finalizado el pipeline, se ejecuta un **Notebook en Python** que permite
 
 ## 4️⃣ Seguridad y Ejecución Programada
 
-El flujo completo se ejecuta de forma **segura, programada y sin intervención manual**, utilizando:
+El flujo completo se ejecuta de forma segura, programada y sin intervención manual, utilizando:
 
 - 🔐 Credenciales protegidas
 - ⏰ Reglas de ejecución automática
 
-🕕 El pipeline `pl_update_table` corre todos los días a las **6:00 a.m.**, garantizando que los reportes y tableros en **Power BI** cuenten siempre con información actualizada.
+🕕 El pipeline `pl_tablas` corre todos los días a las 17:00 p.m., garantizando que los reportes y tableros en Power BI cuenten siempre con información actualizada.
+
+
+Notebook: Envio1Final
+
+<img width="1442" height="682" alt="image" src="https://github.com/user-attachments/assets/9fcd4d8e-4ec0-476a-b325-d53ec507cef3" />
+<img width="1443" height="680" alt="image" src="https://github.com/user-attachments/assets/d9c35679-762e-4632-ae1f-597e2d846b41" />
+<img width="1439" height="679" alt="image" src="https://github.com/user-attachments/assets/a4853cf9-7212-4418-a486-743d45a8ae30" />
+<img width="1436" height="678" alt="image" src="https://github.com/user-attachments/assets/6d0006c6-b294-4b09-b97f-ae67c01930e6" />
+
+
+
+
+
+
+
+
+
 
 ---
 
-> 💡 Este diseño permite escalar el sistema, mantener la integridad de los datos y ofrecer insights confiables para la toma de decisiones estratégicas.
 
 
 
