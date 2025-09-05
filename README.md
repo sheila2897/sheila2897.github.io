@@ -27,6 +27,8 @@ Este proyecto implementa una solución de negocio moderna utilizando:
 🔄 Power Automate para optimizar la eficiencia mediante flujos automáticos de reportes, aprobaciones y alertas.
 
 🚀 Diagrama de la arquitectura del proyecto
+<img width="1325" height="616" alt="image" src="https://github.com/user-attachments/assets/964c309a-0b82-4840-aefe-24d5a340fa73" />
+
 
 
 
