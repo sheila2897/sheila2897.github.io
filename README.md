@@ -20,7 +20,7 @@ Solución de Negocio Cloud con Microsoft Fabric, Power Platform y Power BI
 
 Este proyecto implementa una solución de negocio moderna utilizando:
 
-🧱 Microsoft Fabric para integrar, transformar y consolidar datos en un entorno centralizado.
+🧱 **Microsoft Fabric para integrar, transformar y consolidar datos en un entorno centralizado.**
 ⚙️ Azure SQL para garantizar un almacenamiento estructurado, confiable y de alto rendimiento.
 ⚡ Power Apps para agilizar el desarrollo de soluciones low-code que optimicen procesos operativos.
 📊 Power BI para empoderar a los usuarios de negocio con análisis interactivos y visualizaciones en tiempo real.
