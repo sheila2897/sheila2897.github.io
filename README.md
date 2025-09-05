@@ -477,19 +477,6 @@ Con esta solución, Grupo AJE fortalece su capacidad para:
 
 Más que un sistema tecnológico, representa una plataforma de inteligencia empresarial que potencia la competitividad y acompaña el crecimiento de la compañía en el corto, mediano y largo plazo.
 
----
-
-
-
-
-
-
-> 💡 Se incluyen dashboards interactivos que permiten visualizar KPIs diarios, comparativos mensuales, análisis por canal y desempeño por marca. Cada reporte está alineado con los objetivos de negocio y diseñado para facilitar la toma de decisiones en tiempo real.
-
----
-
-> 🧭 Esta capa convierte datos complejos en insights accionables, fortaleciendo la inteligencia comercial de Grupo AJE.
-
 
 
 
