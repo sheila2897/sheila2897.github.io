@@ -119,9 +119,6 @@ Clasifica los roles del personal (ejecutivo de ventas, supervisor, repartidor, a
 ### 📄 Tipo_documento  
 Define los tipos de documentos aceptados (DNI, RUC, pasaporte, carnet de extranjería), estandarizando el registro de clientes y trabajadores.
 
-### 📄 Tipo_documento  
-La Base de datos en la nube donde se almacenan los datos procesados desde múltiples orígenes.
-
 ## Modelo de datos en Azure SQL
 La Base de datos en la nube donde se almacenan los datos procesados desde múltiples orígenes.
 
