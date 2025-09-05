@@ -119,14 +119,50 @@ Clasifica los roles del personal (ejecutivo de ventas, supervisor, repartidor, a
 ### 📄 Tipo_documento  
 Define los tipos de documentos aceptados (DNI, RUC, pasaporte, carnet de extranjería), estandarizando el registro de clientes y trabajadores.
 
-**Modelo de datos en Azure SQL**
+### 📄 Tipo_documento  
 La Base de datos en la nube donde se almacenan los datos procesados desde múltiples orígenes.
+
+### Modelo de datos en Azure SQL
+La Base de datos en la nube donde se almacenan los datos procesados desde múltiples orígenes.
+
 
 ---
 
-## 🧭 Sugerencia de ubicación en GitHub Pages
+## 🧩 Application Layer – Capa de Aplicación  
+**Pantalla de Inicio / Bienvenida**
 
-Puedes incluir esta sección como parte de tu `README.md` principal o crear una subpágina dedicada a la **Capa de Datos**. Por ejemplo:
+---
+
+### 🎯 Propósito
+
+Servir como punto de entrada principal para los usuarios del sistema comercial del Grupo AJE, facilitando el acceso centralizado a todas las funcionalidades mediante una interfaz moderna, clara e intuitiva.
+
+---
+
+### 🧰 Funcionalidades
+
+- **Presentación visual** con el logotipo corporativo del Grupo AJE y/o el nombre de la aplicación.
+- **Menú central** con botones o íconos de navegación que dirigen a las pantallas principales del sistema:
+
+  - 🧍 **Cliente**  
+  - 🛒 **Pedido**  
+  - 🥤 **Producto**  
+  - 🏷️ **Marca de Producto**  
+  - 🏪 **Canal de Cliente**  
+  - 👔 **Vendedores**
+
+- **Diseño responsive** y visualmente atractivo, adaptable a dispositivos móviles y escritorios.
+- **Uso de íconos representativos** y colores corporativos que refuercen la identidad de la marca y mejoren la experiencia del usuario.
+- **Navegación intuitiva y centralizada**, garantizando consistencia en todas las pantallas del sistema.
+
+---
+
+### 🖼️ Sugerencia de visualización
+
+Puedes incluir una captura de pantalla o mockup de la interfaz en la carpeta `/assets` y referenciarla así:
+
+```markdown
+![Pantalla de Inicio](assets/pantalla_inicio.png)
 
 
 
