@@ -15,7 +15,7 @@ Gracias al uso de tecnologías en la nube como Azure SQL y Microsoft Fabric, el 
 
 ## 🎯 Objetivos Principales
 
-- Unificar la información empresarial proveniente de múltiples fuentes (ERP, CRM, SQL, Excel, entre otros).
+- Unificar la información empresarial proveniente de múltiples fuentes.
 - Automatizar los procesos de integración y transformación de datos con Microsoft Fabric, asegurando calidad y consistencia.
 - Incorporar PowerApps como capa de captura, actualización y gestión operativa de la información.
 - Diseñar y consolidar un Data Warehouse corporativo que respalde la generación de reportes confiables y estandarizados.
