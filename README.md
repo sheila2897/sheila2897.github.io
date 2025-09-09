@@ -272,6 +272,9 @@ El flujo completo se ejecuta de forma segura, programada y sin intervención man
 
 🕕 El pipeline `pl_tablas` corre todos los días a las 17:00 p.m., garantizando que los reportes y tableros en Power BI cuenten siempre con información actualizada.
 
+<img width="2892" height="1358" alt="image" src="https://github.com/user-attachments/assets/b7fbce48-cfee-425b-9a6c-bb65f3517c98" />
+
+<img width="2866" height="1366" alt="image" src="https://github.com/user-attachments/assets/3c665aaa-2b1e-4553-b766-ee12bce96b35" />
 
 Notebook: Envio1Final
 
