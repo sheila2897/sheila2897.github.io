@@ -278,13 +278,15 @@ El flujo completo se ejecuta de forma segura, programada y sin intervención man
 
 Notebook: Envio1Final
 
-<img width="1442" height="682" alt="image" src="https://github.com/user-attachments/assets/9fcd4d8e-4ec0-476a-b325-d53ec507cef3" />
+<img width="1429" height="683" alt="image" src="https://github.com/user-attachments/assets/ac5b5d57-cd41-465e-9a27-f3c69014f0d9" />
 
-<img width="1443" height="680" alt="image" src="https://github.com/user-attachments/assets/d9c35679-762e-4632-ae1f-597e2d846b41" />
+<img width="1426" height="680" alt="image" src="https://github.com/user-attachments/assets/df8f1c27-80bd-497b-90cd-88807f176ef9" />
 
-<img width="1439" height="679" alt="image" src="https://github.com/user-attachments/assets/a4853cf9-7212-4418-a486-743d45a8ae30" />
+<img width="1446" height="681" alt="image" src="https://github.com/user-attachments/assets/1894d7c5-fce3-42ae-9cce-d8edfe6db07d" />
 
-<img width="1436" height="678" alt="image" src="https://github.com/user-attachments/assets/6d0006c6-b294-4b09-b97f-ae67c01930e6" />
+<img width="1428" height="679" alt="image" src="https://github.com/user-attachments/assets/df7a46a3-02ce-43ec-ae17-d7f7d2a324ed" />
+
+<img width="1424" height="673" alt="image" src="https://github.com/user-attachments/assets/ac63bfca-9fb9-446b-9c31-6fc6e2d39721" />
 
 Correo electrónico de notificación del éxito del pipeline
 
@@ -335,11 +337,30 @@ La capa de Data Warehouse constituye el núcleo estructurado del sistema analít
 ### 🔄 Flujos de Automatización con Power Automate
 
 Para complementar esta capa, se han desarrollado flujos en Power Automate que permiten:
-# PENDIENTE
-- 📩 Enviar reportes automáticos con métricas clave (pedidos, clientes atendidos y ventas diarias) a responsables de negocio.
-- ⏰ Programar alertas en caso de variaciones significativas en ventas o clientes.
-- 🔗 Integrar notificaciones en Microsoft Teams o correo electrónico tras cada actualización del Data Warehouse.
-- 🛠️ Reducir la intervención manual, asegurando procesos más rápidos, seguros y con menor riesgo de error.
+
+### 📩 Enviar el Informe Mensual de KPI a responsables de negocio.
+
+<img width="1435" height="681" alt="image" src="https://github.com/user-attachments/assets/ddcd6894-acbe-448a-85a2-3d176263b09d" />
+
+NotificaciónCorreo
+
+<img width="1433" height="695" alt="image" src="https://github.com/user-attachments/assets/541bfbf0-b53a-4c39-9719-a2b4d9ad8fe3" />
+
+### 📩 Enviar el Informe de Ventas – Marca Sporade a responsable de negocio.
+
+<img width="1439" height="684" alt="image" src="https://github.com/user-attachments/assets/77b55da5-4cce-47cd-afc5-31304a5652bf" />
+
+NotificaciónCorreo
+
+<img width="2866" height="1384" alt="image" src="https://github.com/user-attachments/assets/5b4b60e0-bd67-49e0-b2ca-8296e673203b" />
+
+### 📩 Enviar el Informe de Productos Menos Vendidos a responsable de negocio
+
+<img width="1450" height="689" alt="image" src="https://github.com/user-attachments/assets/f386129c-0919-4359-9566-d2e98eb38121" />
+
+NotificaciónCorreo
+
+<img width="1432" height="689" alt="image" src="https://github.com/user-attachments/assets/3eae8869-5068-4c1c-a061-78df3dd75355" />
 
 ---
 
