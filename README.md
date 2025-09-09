@@ -215,7 +215,7 @@ Los datos se generan principalmente desde Power Apps, donde los usuarios registr
 - Pedidos
 - Clientes
 - Productos y marcas
-- Trabajadores
+- Vendedores
 
 📦 Esta información se almacena de forma estructurada en una base de datos relacional: Azure SQL Database.
 
@@ -256,6 +256,7 @@ Una vez finalizado el pipeline, se ejecuta un Notebook en Python que permite:
   - Volumen de pedidos
   - Clientes atendidos
   - Monto total vendido
+  - Ticket promedio
 
 - 📧 Notificar el estado del proceso ETL (ejecución exitosa o errores detectados)
 
@@ -290,7 +291,9 @@ Notebook: Envio1Final
 
 Correo electrónico de notificación del éxito del pipeline
 
-<img width="559" height="536" alt="image" src="https://github.com/user-attachments/assets/20c31dec-6d30-4a3e-8fa1-904d9676daae" />
+<img width="1340" height="597" alt="image" src="https://github.com/user-attachments/assets/2f951b64-acb1-4933-a13d-0e4566b127d6" />
+
+<img width="1450" height="672" alt="image" src="https://github.com/user-attachments/assets/63f19f4f-82ad-4807-a9d5-ed1de5eb04e3" />
 
 ---
 
@@ -383,10 +386,6 @@ NotificaciónCorreo
 ## 🖥️ Vista en Microsoft Fabric
 
 <img width="1439" height="676" alt="image" src="https://github.com/user-attachments/assets/9740799b-8681-4b44-a951-c0bfdde044c0" />
-
-## Flujos en Power Automate
-
-PENDIENTE
 
 ---
 
