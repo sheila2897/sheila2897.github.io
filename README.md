@@ -40,7 +40,7 @@ Este proyecto implementa una solución de negocio moderna utilizando herramienta
 
 ## 🚀 Diagrama de Arquitectura del Proyecto
 
-<img width="1325" height="616" alt="image" src="https://github.com/user-attachments/assets/964c309a-0b82-4840-aefe-24d5a340fa73" />
+<img width="1174" height="512" alt="image" src="https://github.com/user-attachments/assets/e5bfd148-6504-45c6-801d-1bb680f1c29e" />
 
 ### 📁 Data Sources  
 La información se origina en archivos Excel y en un sistema de escritorio con base de datos propia. Estos insumos se incorporan al ecosistema mediante procesos manuales o parcialmente automatizados.
