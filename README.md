@@ -342,29 +342,29 @@ La capa de Data Warehouse constituye el núcleo estructurado del sistema analít
 
 Para complementar esta capa, se han desarrollado flujos en Power Automate que permiten:
 
-### 📩 Enviar el Informe Mensual de KPI a responsables de negocio.
+### 📩 Enviar el Informe Mensual de KPI 2025 a responsables de negocio.
 
 <img width="1435" height="681" alt="image" src="https://github.com/user-attachments/assets/ddcd6894-acbe-448a-85a2-3d176263b09d" />
 
 NotificaciónCorreo
 
-<img width="1433" height="695" alt="image" src="https://github.com/user-attachments/assets/541bfbf0-b53a-4c39-9719-a2b4d9ad8fe3" />
+<img width="1430" height="645" alt="image" src="https://github.com/user-attachments/assets/a5192708-f64a-412a-8a3d-5024e74afeff" />
 
-### 📩 Enviar el Informe de Ventas – Marca Sporade a responsable de negocio.
+### 📩 Enviar el informe de Ventas Abril y Mayo 2025 – Marca Sporade a responsable de negocio.
 
 <img width="1439" height="684" alt="image" src="https://github.com/user-attachments/assets/77b55da5-4cce-47cd-afc5-31304a5652bf" />
 
 NotificaciónCorreo
 
-<img width="2866" height="1384" alt="image" src="https://github.com/user-attachments/assets/5b4b60e0-bd67-49e0-b2ca-8296e673203b" />
+<img width="1429" height="688" alt="image" src="https://github.com/user-attachments/assets/96d9c977-ce23-4e1a-9245-a1e91a4abfb5" />
 
-### 📩 Enviar el Informe de Productos Menos Vendidos a responsable de negocio
+### 📩 Enviar Informe de Productos Menos Vendidos - Abril y Mayo 2025 a responsable de negocio
 
 <img width="1450" height="689" alt="image" src="https://github.com/user-attachments/assets/f386129c-0919-4359-9566-d2e98eb38121" />
 
 NotificaciónCorreo
 
-<img width="1432" height="689" alt="image" src="https://github.com/user-attachments/assets/3eae8869-5068-4c1c-a061-78df3dd75355" />
+<img width="1424" height="686" alt="image" src="https://github.com/user-attachments/assets/72b5628e-e618-4935-a3e4-11366ee90922" />
 
 ---
 
