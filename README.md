@@ -78,13 +78,13 @@ La estructura se encuentra normalizada y distribuida en las siguientes tablas pr
 Registra los pedidos realizados por los clientes, incluyendo la fecha, trabajador asociado, canal de venta, tipo de formato y las condiciones de entrega.
 
 ### 📑 Detalle_pedido  
-Contiene la información específica de cada pedido, relacionando productos, cantidades, precios unitarios, descuentos y promociones aplicadas.
+Contiene la información específica de cada pedido, relacionando productos, cantidades y precios unitarios.
 
 ### 🧍 Cliente  
 Almacena los datos de los clientes, considerando tipo de documento, identificación, nombre, contacto y canal de compra asociado. Facilita la segmentación comercial y la personalización de campañas.
 
 ### 🏪 Canal_cliente  
-Clasifica el origen de los pedidos (tienda física, distribuidor, mayorista, autoservicio, e-commerce, etc.), permitiendo análisis comparativos entre canales de venta.
+Clasifica el origen de los pedidos (Tradicional,Moderno, Horeca,Mayorista e Institucional), permitiendo análisis comparativos entre canales de venta.
 
 ### 🥤 Producto  
 Centraliza la información de cada producto, vinculando marca, categoría y formato. Incluye atributos como nombre, código, capacidad y precio base.
@@ -142,10 +142,10 @@ Servir como punto de entrada principal para los usuarios del sistema comercial d
   - 🥤 **Producto**
   - 🧍 **Cliente**
   - 🏪 **Canal de Cliente**      
-  - 🏷️ **Marca de Producto**  
+  - 🏷️ **Marca**  
   - 👔 **Vendedores**
 
-- **Diseño responsive** y visualmente atractivo, adaptable a dispositivos móviles y escritorios.
+- **Diseño** y visualmente atractivo, adaptable a dispositivos móviles y escritorios.
 - **Uso de íconos representativos** y colores corporativos que refuercen la identidad de la marca y mejoren la experiencia del usuario.
 - **Navegación intuitiva y centralizada**, garantizando consistencia en todas las pantallas del sistema.
 
@@ -313,11 +313,30 @@ La capa de Data Warehouse constituye el núcleo estructurado del sistema analít
 
 - **Medidas Calculadas**  
   Se definen indicadores estratégicos como:
-  - Volumen de pedidos  
-  - Clientes atendidos  
-  - Ingresos totales  
-  - Impacto de promociones  
-  - Margen de rentabilidad
+  - 10CAIDADELMES  
+  - 10CAIDAMESTOP5
+  - 10TEXTO_CAIDAMESTOP5
+  - 8RANK_AUMENTO_MARCA
+  - 8RANK_CAIDA_MARCA
+  - 8TOP3_AUMENTO_MARCAS
+  - 8TOP3_CAIDA_MARCAS
+  - Impacto Marginal
+  - KPI %
+  - MAXKPI
+  - MetaObjetiva
+  - MINKPI
+  - ParticipacionCanal
+  - TEXTO_TOP3_MARCAS
+  - UMBRALAMARIL
+  - UMBRALROJO
+  - VARIACION MENSUAL
+  - Ventas
+  - Ventas Día
+  - VENTAS MES PASADO
+  - Ventas Proyectadas
+  - VentasBebidas
+  - Ventas proyectadas 1%
+  - Ventasproyectadas2%
 
 - **Tabla Calendario**  
   Implementación de una dimensión temporal que habilita análisis detallados por:
