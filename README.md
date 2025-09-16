@@ -158,22 +158,27 @@ Servir como punto de entrada principal para los usuarios del sistema comercial d
 Permite al usuario registrar un nuevo pedido de cliente, seleccionando productos, cantidades, tipo de pago y gestionando el carrito de compra. Esta pantalla agiliza el proceso de venta al integrar búsqueda de productos, selección de cliente y confirmación del pedido en un solo flujo. Es ideal para puntos de venta, vendedores móviles o atención directa al cliente.
 
 ### Funcionalidades
-- Encabezado de navegación: Ícono de inicio para volver al menú principal.
-- Formulario de pedido
-   - Cliente: Dropdown para seleccionar cliente existente.
-   - Tipo de Pago: Dropdown para elegir modalidad (efectivo, crédito, etc.).
-   - Buscar producto: Barra de búsqueda para filtrar productos por nombre o descripción.
-- Listado de productos :
+### 🔹 Encabezado de navegación: 
+   - Ícono de inicio para volver al menú principal.
+     
+### 🔹 Formulario de pedido
+   - **Cliente**: Dropdown para seleccionar cliente existente.
+   - **Tipo de Pago**: Dropdown para elegir modalidad (efectivo, crédito, etc.).
+   - **Buscar producto**: Barra de búsqueda para filtrar productos por nombre o descripción.
+     
+### 🔹 Listado de productos :
    - Muestra productos disponibles con nombre, presentación y empaque.
    - Botón para agregar cada producto al carrito.
    - Campo de cantidad editable (por defecto: 5 unidades).
-- Carrito de compra
+     
+### 🔹 Carrito de compra
    - Visualización de productos agregados.
    - Indicador de total acumulado (TOTAL: S/ -) y número de ítems en el carrito.
-- Acciones
-   - Crear cliente: Redirige al formulario de registro de cliente nuevo.
-   - Confirmar Pedido: Finaliza y guarda el pedido en el sistema.
-   - Limpiar Carrito: Elimina todos los productos seleccionados.
+     
+### 🔹 Acciones
+   - **Crear cliente**: Redirige al formulario de registro de cliente nuevo.
+   - **Confirmar Pedido**: Finaliza y guarda el pedido en el sistema.
+   - **Limpiar Carrito**: Elimina todos los productos seleccionados.
 
 ## 🛒 Pantalla de Producto
 
@@ -195,14 +200,14 @@ Permite al usuario registrar nuevos productos, editar información existente, bu
 - **Ícono de advertencia**: Indica errores de validación o campos incompletos.  
 
 ### 🔹 Búsqueda de productos
-- Campo **Buscar producto** para filtrar por nombre o descripción.  
+- **Buscar producto** para filtrar por nombre o descripción.  
 
 ### 🔹 Visualización de datos
 - **Tabla superior**: Vista resumida con columnas como descripción, precio, nombre y cantidad.  
 - **Tabla inferior**: Vista detallada con campos técnicos como ID de categoría, formato, marca y producto.  
 
 ### 🔹 Navegación
-- Ícono de **inicio** en la esquina superior derecha para volver al menú principal.  
+- Ícono de inicio en la esquina superior derecha para volver al menú principal.  
 
 ## 🛒 Pantalla de Cliente
 
@@ -211,6 +216,33 @@ Permite al usuario registrar nuevos productos, editar información existente, bu
 Facilita la administración de clientes registrados en el sistema, permitiendo consultar sus datos, realizar ediciones, registrar nuevos clientes y vincularlos directamente con pedidos. Esta pantalla permite mantener actualizada la base de clientes, agilizar la vinculación con pedidos y mejorar la trazabilidad de la información comercial. Es ideal para equipos de ventas, atención al cliente y administración.
 
 ### Funcionalidades
+### 🔹 Panel lateral izquierdo
+Lista de clientes con nombres visibles y accesos rápidos.  
+**Ejemplos**: EVELIN MAGALY, JOSE MARTIN, FANNY PAREJA, MARIA DOLORES PALACIOS.
+
+### 🔹 Panel central de información
+Visualización detallada del cliente seleccionado con los siguientes campos:  
+- **id_cliente**: Identificador único.  
+- **id_canal_cliente**: Canal de atención (ej. Tradicional).  
+- **dirección**: Dirección física del cliente.  
+- **correo**: Email de contacto.  
+- **tipo_documento**: Tipo de documento (DNI, RUC, etc.).  
+- **nombre_documento**: Nombre completo del titular.  
+- **numero_documento**: Número de documento.  
+- **telefono**: Número de contacto.  
+
+### 🔹 Acciones disponibles
+- **Nuevo**: Inicia el registro de un nuevo cliente.  
+- **Editar**: Habilita los campos para modificar datos existentes.  
+- **Guardar**: Confirma y almacena los cambios realizados.  
+- **Eliminar**: Borra el cliente del sistema.  
+- **Ingresar pedido**: Redirige al módulo de pedidos para ese cliente.  
+
+### 🔹 Barra superior de búsqueda
+- **Campo de búsqueda**: Permite buscar clientes por nombre.  
+- **Botón azul “Buscar”**: Ejecuta la consulta.  
+- **Ícono de inicio**: Vuelve al menú principal.  
+
 
 ## 🛒 Pantalla de Canal de cliente
 
@@ -219,6 +251,27 @@ Facilita la administración de clientes registrados en el sistema, permitiendo c
 Organiza y segmenta a los clientes según su tipo de negocio o comportamiento de compra, facilitando la personalización de estrategias comerciales y atención. Este módulo permite segmentar la base de clientes para: Optimizar la atención comercial según el tipo de cliente.
 
 ### Funcionalidades
+### 🔹 Panel izquierdo – Navegación y búsqueda
+- **Barra de búsqueda**: Filtra canales por nombre o descripción.  
+- **Botón “+ Nuevo”**: Inicia el registro de un nuevo canal de cliente.  
+- **Lista de categorías**:  
+  - Clientes minoristas o individuales del canal tradicional  
+  - Clientes retail, cadenas y grifos  
+  - Hoteles, restaurantes y cafeterías  
+  - Clientes con compra volumen  
+  - Clientes empresas, colegios, etc.  
+
+### 🔹 Panel central – Detalle del canal seleccionado
+- **Nombre**: Identificación del canal activo.  
+- **Descripción**: Breve detalle sobre el tipo de clientes que pertenecen al canal.  
+
+**Ejemplo:**  
+- Nombre: **Tradicional**  
+- Descripción: **Clientes minoristas o individuales del canal**  
+
+### 🔹 Panel derecho – Identidad del módulo
+- **Etiqueta**: “Canal de clientes” acompañada de un ícono de perfil.  
+- **Opcional**: Accesos rápidos o configuraciones relacionadas con el canal.  
 
 ## 🛒 Pantalla de Marca de producto
 
@@ -231,12 +284,31 @@ Registrar y visualizar las ventas realizadas, incluyendo el detalle del proceso 
 ## 🛒 Pantalla de Vendedores
 
 ### 🎯 Propósito
-
-Registrar y visualizar las ventas realizadas, incluyendo el detalle del proceso de **buyback** (canje de equipo), asegurando trazabilidad, eficiencia operativa y consistencia en la gestión comercial.
+Esta pantalla permite administrar la información de los vendedores registrados en el sistema, facilitando la edición de datos personales, la creación de nuevos perfiles y la vinculación directa con el módulo de pedidos.
 
 ### Funcionalidades
+#### 🔹 Panel izquierdo – Lista de vendedores
+- Muestra los nombres de los vendedores registrados con íconos de perfil.
+- Ejemplos: Diana Melva Julcamoro, Fanny Casilda Indoro, Yessica Gianinne Mantilla, GALINDO LOPEZ JORGE.
 
----
+#### 🔹 Panel central – Detalle del vendedor seleccionado
+- Campos editables:
+  - `correo`: Dirección de correo electrónico.
+  - `id_cargo_trabajador`: Rol asignado (ej. vendedor).
+  - `id_trabajador`: Identificador único.
+  - `nombre`: Nombre completo del trabajador.
+  - `telefono`: Número de contacto.
+
+#### 🔹 Acciones disponibles
+- **Nuevo**: Crea un nuevo perfil de vendedor.
+- **Editar**: Habilita los campos para modificar datos existentes.
+- **Guardar**: Confirma y almacena los cambios realizados.
+- **Eliminar**: Borra el vendedor del sistema.
+- **Ingresar pedido**: Redirige al módulo de pedidos para ese vendedor.
+
+#### 🔹 Barra superior de búsqueda
+- Campo para buscar vendedores por nombre, correo o ID.
+- Botón “Buscar” para ejecutar la consulta.
 
 # ETL Layer (Capa de extracción, transformación y carga)
 ### Descripción General
