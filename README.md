@@ -204,17 +204,6 @@ Permite al usuario registrar nuevos productos, editar información existente, bu
 ### 🔹 Navegación
 - Ícono de **inicio** en la esquina superior derecha para volver al menú principal.  
 
----
-
-## 🧠 Uso estratégico
-Esta pantalla optimiza la administración de productos al integrar en un solo módulo:
-- Registro de nuevos productos.  
-- Edición y validación de datos existentes.  
-- Búsqueda rápida y visualización en tablas estructuradas.  
-
-Es ideal para la gestión centralizada de inventario en entornos de ventas, distribución y control de stock.
-
-
 ## 🛒 Pantalla de Cliente
 
 ### 🎯 Propósito
