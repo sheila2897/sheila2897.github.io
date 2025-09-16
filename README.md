@@ -180,6 +180,10 @@ Permite al usuario registrar un nuevo pedido de cliente, seleccionando productos
    - **Confirmar Pedido**: Finaliza y guarda el pedido en el sistema.
    - **Limpiar Carrito**: Elimina todos los productos seleccionados.
 
+<img width="900" height="550" alt="image" src="https://github.com/user-attachments/assets/f3adb233-a743-4c63-a352-360970e185ce" />
+
+<img width="900" height="550" alt="image" src="https://github.com/user-attachments/assets/bc27b51f-ea42-4583-b639-acd3292e7d7a" />
+
 ## 🛒 Pantalla de Producto
 
 ### 🎯 Propósito
@@ -206,8 +210,10 @@ Permite al usuario registrar nuevos productos, editar información existente, bu
 - **Tabla inferior**: Vista detallada con campos técnicos como ID de categoría, formato, marca y producto.  
 
 ### 🔹 Navegación
-- Ícono de inicio en la esquina superior derecha para volver al menú principal.  
+- Ícono de inicio en la esquina superior derecha para volver al menú principal.
 
+<img width="900" height="550" alt="image" src="https://github.com/user-attachments/assets/07ecd9bc-8c5c-4592-81c7-59f856f85461" />
+ 
 ## 🛒 Pantalla de Cliente
 
 ### 🎯 Propósito
@@ -271,8 +277,10 @@ Organiza y segmenta a los clientes según su tipo de negocio o comportamiento de
 
 ### 🔹 Panel derecho – Identidad del módulo
 - **Etiqueta**: “Canal de clientes” acompañada de un ícono de perfil.  
-- **Opcional**: Accesos rápidos o configuraciones relacionadas con el canal.  
+- **Opcional**: Accesos rápidos o configuraciones relacionadas con el canal.
 
+<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/1a549173-3001-468b-9fab-a88c742a2cea" />
+ 
 ## 🛒 Pantalla de Marca de producto -- PENDIENTE
 
 ### 🎯 Propósito
