@@ -611,64 +611,88 @@ La capa de presentación, construida sobre Power BI, es el punto de acceso para 
 
 Inicio
 
-<img width="820" height="459" alt="image" src="https://github.com/user-attachments/assets/cee73324-56a3-4eb8-868d-7e840fd0d24e" />
+
+<img width="900" height="550" alt="image" src="https://github.com/user-attachments/assets/cee73324-56a3-4eb8-868d-7e840fd0d24e" />
 
 
 Caso de negocio
 
-<img width="819" height="463" alt="image" src="https://github.com/user-attachments/assets/fdd8510f-7d9a-481b-8d14-9645a3375253" />
+
+<img width="900" height="550" alt="image" src="https://github.com/user-attachments/assets/fdd8510f-7d9a-481b-8d14-9645a3375253" />
 
 
-**Indicadores**
-<img width="819" height="456" alt="image" src="https://github.com/user-attachments/assets/5d88f770-b512-42aa-b041-f1974b88e90a" />
+Indicadores
 
 
-**Dashboard**
-<img width="1062" height="561" alt="image" src="https://github.com/user-attachments/assets/9659b4dd-8686-4c29-bc95-3a85693eac2c" />
+<img width="900" height="550" alt="image" src="https://github.com/user-attachments/assets/5d88f770-b512-42aa-b041-f1974b88e90a" />
 
 
-**Reporte**
-<img width="972" height="490" alt="image" src="https://github.com/user-attachments/assets/8955bc1b-8d50-4c65-9704-350f0cb19f4e" />
+Dashboard
 
 
-**Informe 1**
-<img width="818" height="459" alt="image" src="https://github.com/user-attachments/assets/1ebe5e45-1da8-42bb-a84a-9d98b484d5e0" />
+<img width="900" height="550" alt="image" src="https://github.com/user-attachments/assets/9659b4dd-8686-4c29-bc95-3a85693eac2c" />
 
 
-**Informe 2**
-<img width="820" height="460" alt="image" src="https://github.com/user-attachments/assets/75cb6cf3-2158-4f39-88bb-b63ffc656ccc" />
+Reporte
 
 
-**Informe 3**
-<img width="811" height="456" alt="image" src="https://github.com/user-attachments/assets/c28f025d-1e98-426d-8ce5-c31e64751951" />
+<img width="900" height="550" alt="image" src="https://github.com/user-attachments/assets/8955bc1b-8d50-4c65-9704-350f0cb19f4e" />
 
 
-**Informe 4**
-<img width="1079" height="590" alt="image" src="https://github.com/user-attachments/assets/1b0ef139-d9f7-4449-b6cb-29e6111f5583" />
+Informe 1
 
 
-**Informe 5**
-<img width="818" height="458" alt="image" src="https://github.com/user-attachments/assets/53a15edb-39f5-4b13-a1fa-cd5c43eb18cc" />
+<img width="900" height="550" alt="image" src="https://github.com/user-attachments/assets/1ebe5e45-1da8-42bb-a84a-9d98b484d5e0" />
 
 
-**Informe 6**
-<img width="820" height="463" alt="image" src="https://github.com/user-attachments/assets/ec5c31a6-8399-4df3-a688-de263ee35fff" />
+Informe 2
 
 
-**Informe 7**
-<img width="817" height="456" alt="image" src="https://github.com/user-attachments/assets/817cbc20-10b1-4533-a73e-e5321fcebd01" />
+<img width="900" height="550" alt="image" src="https://github.com/user-attachments/assets/75cb6cf3-2158-4f39-88bb-b63ffc656ccc" />
 
 
-**Informe 8**
-<img width="819" height="462" alt="image" src="https://github.com/user-attachments/assets/e26d2558-4fe1-4ab9-9725-2534ff27e27e" />
+Informe 3
 
 
-**Informe 9**
-<img width="813" height="463" alt="image" src="https://github.com/user-attachments/assets/ecbc44c4-c654-4cff-9e7c-710e3b02bb87" />
+<img width="900" height="550" alt="image" src="https://github.com/user-attachments/assets/c28f025d-1e98-426d-8ce5-c31e64751951" />
 
 
-**Informe 10**
-<img width="1082" height="599" alt="image" src="https://github.com/user-attachments/assets/d211a3d1-2cde-49c6-be42-e7f3dddfaffa" />
+Informe 4
+
+
+<img width="900" height="550" alt="image" src="https://github.com/user-attachments/assets/1b0ef139-d9f7-4449-b6cb-29e6111f5583" />
+
+
+Informe 5
+
+
+<img width="900" height="550" alt="image" src="https://github.com/user-attachments/assets/53a15edb-39f5-4b13-a1fa-cd5c43eb18cc" />
+
+
+Informe 6
+
+
+<img width="900" height="550" alt="image" src="https://github.com/user-attachments/assets/ec5c31a6-8399-4df3-a688-de263ee35fff" />
+
+
+Informe 7
+
+
+<img width="900" height="550" alt="image" src="https://github.com/user-attachments/assets/817cbc20-10b1-4533-a73e-e5321fcebd01" />
+
+
+Informe 8
+<img width="900" height="550" alt="image" src="https://github.com/user-attachments/assets/e26d2558-4fe1-4ab9-9725-2534ff27e27e" />
+
+
+Informe 9
+<img width="900" height="550" alt="image" src="https://github.com/user-attachments/assets/ecbc44c4-c654-4cff-9e7c-710e3b02bb87" />
+
+
+Informe 10
+
+
+<img width="900" height="550" alt="image" src="https://github.com/user-attachments/assets/d211a3d1-2cde-49c6-be42-e7f3dddfaffa" />
 
 
 ---
