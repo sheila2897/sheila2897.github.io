@@ -149,7 +149,7 @@ Servir como punto de entrada principal para los usuarios del sistema comercial d
 - **Uso de íconos representativos** y colores corporativos que refuercen la identidad de la marca y mejoren la experiencia del usuario.
 - **Navegación intuitiva y centralizada**, garantizando consistencia en todas las pantallas del sistema.
 
-<img width="900" height="447" alt="image" src="https://github.com/user-attachments/assets/e683f917-abfe-4d30-b588-635d84844726" />
+<img width="900" height="550" alt="image" src="https://github.com/user-attachments/assets/e683f917-abfe-4d30-b588-635d84844726" />
 
 ## 🛒 Pantalla de Pedido
 
