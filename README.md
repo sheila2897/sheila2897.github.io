@@ -610,10 +610,12 @@ La capa de presentación, construida sobre Power BI, es el punto de acceso para 
 ### 📑 Reportes en Power BI
 
 Inicio
+
 <img width="820" height="459" alt="image" src="https://github.com/user-attachments/assets/cee73324-56a3-4eb8-868d-7e840fd0d24e" />
 
 
-**Caso de negocio**
+Caso de negocio
+
 <img width="819" height="463" alt="image" src="https://github.com/user-attachments/assets/fdd8510f-7d9a-481b-8d14-9645a3375253" />
 
 
