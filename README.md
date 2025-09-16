@@ -55,7 +55,7 @@ La interacción con los usuarios se gestiona a través de Power Apps, que ofrece
 Con Microsoft Fabric (Dataflows y Pipelines) se automatiza la ingesta y transformación de datos hacia el Data Warehouse. Asimismo, se emplean Notebooks en Python para ejecutar validaciones y generar notificaciones por correo electrónico.
 
 ### 🧱 Data Warehouse Layer  
-Los datos procesados se almacenan en un Fabric Data Warehouse, diseñado para consolidar información y habilitar análisis avanzados de manera eficiente. Además, se integra Power Automate para ejecutar flujos automáticos que distribuyen reportes, envían alertas y activan aprobaciones tras la actualización de datos, asegurando trazabilidad y respuesta oportuna.
+Los datos procesados se almacenan en un Fabric Data Warehouse, diseñado para consolidar información y habilitar análisis avanzados de manera eficiente. Además, se integra Power Automate para ejecutar flujos automáticos que distribuyen reportes, envían alertas tras la actualización de datos, asegurando trazabilidad y respuesta oportuna.
 
 ### 📊 Presentation Layer  
 Los usuarios acceden a reportes dinámicos mediante Power BI Service, favoreciendo la toma de decisiones en tiempo real.
@@ -197,7 +197,6 @@ Permite al usuario registrar nuevos productos, editar información existente, bu
 
 ### 🔹 Botones de acción
 - **Insertar**: Registra el producto en la base de datos.  
-- **Ícono de advertencia**: Indica errores de validación o campos incompletos.  
 
 ### 🔹 Búsqueda de productos
 - **Buscar producto** para filtrar por nombre o descripción.  
