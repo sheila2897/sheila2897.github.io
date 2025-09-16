@@ -281,13 +281,38 @@ Organiza y segmenta a los clientes según su tipo de negocio o comportamiento de
 
 <img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/1a549173-3001-468b-9fab-a88c742a2cea" />
  
-## 🛒 Pantalla de Marca de producto -- PENDIENTE
+## 🛒 Pantalla de Marca de producto
 
 ### 🎯 Propósito
 
-Registrar y visualizar las ventas realizadas, incluyendo el detalle del proceso de **buyback** (canje de equipo), asegurando trazabilidad, eficiencia operativa y consistencia en la gestión comercial.
+Esta pantalla permite registrar, buscar y visualizar marcas de productos dentro del sistema, facilitando la organización del catálogo comercial y la trazabilidad de cada producto por marca. Este módulo permite mantener actualizada la base de marcas, vincularlas correctamente con productos y facilitar la segmentación comercial por línea de marca. Es clave para reportes de rendimiento, promociones específicas y control de inventario.
 
 ### Funcionalidades
+#### 🔹 Formulario de ingreso de marca
+- **Nombre de la marca**: Campo de texto para ingresar el nombre comercial (ej. CIELO, VOLT, BIG).
+- **Código de marca**: Identificador único de la marca (ej. MR001).
+- **Botón "Insertar"**: Registra la marca en la base de datos.
+
+#### 🔹 Búsqueda de marcas
+- Campo “Buscar producto” para filtrar por código o nombre de marca.
+- Resultados mostrados en tabla con columnas:
+  - `id_marca_producto`
+  - `nombre_marca`
+  - `codigo_marca`
+
+#### 🔹 Tabla de marcas registradas
+- Visualización estructurada de todas las marcas existentes.
+- Columnas:
+  - `nombre_marca`
+  - `codigo_marca`
+  - `id_marca_producto`
+- Ejemplos: BIG (MR1), ORO (MR2), SPACORE (MR3), CIELO (MR4), VOLT (MR6)
+
+#### 🔹 Navegación
+- Ícono de inicio en la parte superior para volver al menú principal.
+- Indicador de número total de filas registradas (ej. Filas: 30).
+
+<img width="900" height="550" alt="image" src="https://github.com/user-attachments/assets/68a9c044-7b1b-4234-a125-d15348013ff8" />
 
 ## 🛒 Pantalla de Vendedores
 
