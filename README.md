@@ -273,7 +273,7 @@ Organiza y segmenta a los clientes según su tipo de negocio o comportamiento de
 - **Etiqueta**: “Canal de clientes” acompañada de un ícono de perfil.  
 - **Opcional**: Accesos rápidos o configuraciones relacionadas con el canal.  
 
-## 🛒 Pantalla de Marca de producto
+## 🛒 Pantalla de Marca de producto -- PENDIENTE
 
 ### 🎯 Propósito
 
