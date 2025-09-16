@@ -182,6 +182,38 @@ Permite al usuario registrar un nuevo pedido de cliente, seleccionando productos
 Permite al usuario registrar nuevos productos, editar información existente, buscar productos específicos y visualizar datos estructurados en tiempo real. Esta pantalla centraliza la gestión de inventario, permitiendo mantener actualizada la base de productos, validar precios y controlar el stock. Es ideal para equipos de ventas, logística o administración.
 
 ### Funcionalidades
+### 🔹 Formulario de ingreso de producto
+- **Nombre de producto**: Campo de texto para ingresar el nombre comercial.  
+- **Cantidad**: Número de unidades disponibles o por registrar.  
+- **Marca**: Identificador de la marca asociada.  
+- **Descripción**: Detalle del producto (presentación, características).  
+- **Precio**: Valor unitario del producto.  
+- **Formato**: Tipo de empaque o presentación (ej. botella, pack, caja).  
+
+### 🔹 Botones de acción
+- **Insertar**: Registra el producto en la base de datos.  
+- **Ícono de advertencia**: Indica errores de validación o campos incompletos.  
+
+### 🔹 Búsqueda de productos
+- Campo **Buscar producto** para filtrar por nombre o descripción.  
+
+### 🔹 Visualización de datos
+- **Tabla superior**: Vista resumida con columnas como descripción, precio, nombre y cantidad.  
+- **Tabla inferior**: Vista detallada con campos técnicos como ID de categoría, formato, marca y producto.  
+
+### 🔹 Navegación
+- Ícono de **inicio** en la esquina superior derecha para volver al menú principal.  
+
+---
+
+## 🧠 Uso estratégico
+Esta pantalla optimiza la administración de productos al integrar en un solo módulo:
+- Registro de nuevos productos.  
+- Edición y validación de datos existentes.  
+- Búsqueda rápida y visualización en tablas estructuradas.  
+
+Es ideal para la gestión centralizada de inventario en entornos de ventas, distribución y control de stock.
+
 
 ## 🛒 Pantalla de Cliente
 
