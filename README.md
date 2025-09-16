@@ -138,11 +138,11 @@ Servir como punto de entrada principal para los usuarios del sistema comercial d
 - **Presentación visual** con el logotipo corporativo del Grupo AJE y/o el nombre de la aplicación.
 - **Menú central** con botones o íconos de navegación que dirigen a las pantallas principales del sistema:
 
-  - 🛒 **Pedido**  
-  - 🥤 **Producto**
-  - 🧍 **Cliente**
+  - 🛒 **Pedidos**  
+  - 🥤 **Productos**
+  - 🧍 **Clientes**
   - 🏪 **Canal de Cliente**      
-  - 🏷️ **Marca**  
+  - 🏷️ **Marcas**  
   - 👔 **Vendedores**
 
 - **Diseño** y visualmente atractivo, adaptable a dispositivos móviles y escritorios.
@@ -155,15 +155,31 @@ Servir como punto de entrada principal para los usuarios del sistema comercial d
 
 ### 🎯 Propósito
 
-Registrar y visualizar las ventas realizadas, incluyendo el detalle del proceso de **buyback** (canje de equipo), asegurando trazabilidad, eficiencia operativa y consistencia en la gestión comercial.
+Permite al usuario registrar un nuevo pedido de cliente, seleccionando productos, cantidades, tipo de pago y gestionando el carrito de compra. Esta pantalla agiliza el proceso de venta al integrar búsqueda de productos, selección de cliente y confirmación del pedido en un solo flujo. Es ideal para puntos de venta, vendedores móviles o atención directa al cliente.
 
 ### Funcionalidades
+- Encabezado de navegación: Ícono de inicio para volver al menú principal.
+- Formulario de pedido
+   - Cliente: Dropdown para seleccionar cliente existente.
+   - Tipo de Pago: Dropdown para elegir modalidad (efectivo, crédito, etc.).
+   - Buscar producto: Barra de búsqueda para filtrar productos por nombre o descripción.
+- Listado de productos :
+   - Muestra productos disponibles con nombre, presentación y empaque.
+   - Botón para agregar cada producto al carrito.
+   - Campo de cantidad editable (por defecto: 5 unidades).
+- Carrito de compra
+   - Visualización de productos agregados.
+   - Indicador de total acumulado (TOTAL: S/ -) y número de ítems en el carrito.
+- Acciones
+   - Crear cliente: Redirige al formulario de registro de cliente nuevo.
+   - Confirmar Pedido: Finaliza y guarda el pedido en el sistema.
+   - Limpiar Carrito: Elimina todos los productos seleccionados.
 
 ## 🛒 Pantalla de Producto
 
 ### 🎯 Propósito
 
-Registrar y visualizar las ventas realizadas, incluyendo el detalle del proceso de **buyback** (canje de equipo), asegurando trazabilidad, eficiencia operativa y consistencia en la gestión comercial.
+Permite al usuario registrar nuevos productos, editar información existente, buscar productos específicos y visualizar datos estructurados en tiempo real. Esta pantalla centraliza la gestión de inventario, permitiendo mantener actualizada la base de productos, validar precios y controlar el stock. Es ideal para equipos de ventas, logística o administración.
 
 ### Funcionalidades
 
@@ -171,7 +187,7 @@ Registrar y visualizar las ventas realizadas, incluyendo el detalle del proceso 
 
 ### 🎯 Propósito
 
-Registrar y visualizar las ventas realizadas, incluyendo el detalle del proceso de **buyback** (canje de equipo), asegurando trazabilidad, eficiencia operativa y consistencia en la gestión comercial.
+Facilita la administración de clientes registrados en el sistema, permitiendo consultar sus datos, realizar ediciones, registrar nuevos clientes y vincularlos directamente con pedidos. Esta pantalla permite mantener actualizada la base de clientes, agilizar la vinculación con pedidos y mejorar la trazabilidad de la información comercial. Es ideal para equipos de ventas, atención al cliente y administración.
 
 ### Funcionalidades
 
@@ -179,7 +195,7 @@ Registrar y visualizar las ventas realizadas, incluyendo el detalle del proceso 
 
 ### 🎯 Propósito
 
-Registrar y visualizar las ventas realizadas, incluyendo el detalle del proceso de **buyback** (canje de equipo), asegurando trazabilidad, eficiencia operativa y consistencia en la gestión comercial.
+Organiza y segmenta a los clientes según su tipo de negocio o comportamiento de compra, facilitando la personalización de estrategias comerciales y atención. Este módulo permite segmentar la base de clientes para: Optimizar la atención comercial según el tipo de cliente.
 
 ### Funcionalidades
 
