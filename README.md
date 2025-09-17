@@ -239,8 +239,7 @@ Visualización detallada del cliente seleccionado con los siguientes campos:
 ### 🔹 Acciones disponibles
 - **Nuevo**: Inicia el registro de un nuevo cliente.  
 - **Editar**: Habilita los campos para modificar datos existentes.  
-- **Guardar**: Confirma y almacena los cambios realizados.  
-- **Eliminar**: Borra el cliente del sistema.  
+- **Guardar**: Confirma y almacena los cambios realizados.
 - **Ingresar pedido**: Redirige al módulo de pedidos para ese cliente.  
 
 ### 🔹 Barra superior de búsqueda
@@ -336,7 +335,6 @@ Esta pantalla permite administrar la información de los vendedores registrados 
 - **Nuevo**: Crea un nuevo perfil de vendedor.
 - **Editar**: Habilita los campos para modificar datos existentes.
 - **Guardar**: Confirma y almacena los cambios realizados.
-- **Eliminar**: Borra el vendedor del sistema.
 - **Ingresar pedido**: Redirige al módulo de pedidos para ese vendedor.
 
 #### 🔹 Barra superior de búsqueda
