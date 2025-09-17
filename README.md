@@ -162,6 +162,7 @@ Permite al usuario registrar un nuevo pedido de cliente, seleccionando productos
    - Ícono de inicio para volver al menú principal.
      
 ### 🔹 Formulario de pedido
+   - **Trabajador** : Dropdown para seleccionar el trabajador existente.
    - **Cliente**: Dropdown para seleccionar cliente existente.
    - **Tipo de Pago**: Dropdown para elegir modalidad (efectivo, crédito, etc.).
    - **Buscar producto**: Barra de búsqueda para filtrar productos por nombre o descripción.
