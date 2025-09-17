@@ -247,7 +247,7 @@ Visualización detallada del cliente seleccionado con los siguientes campos:
 - **Botón azul “Buscar”**: Ejecuta la consulta.  
 - **Ícono de inicio**: Vuelve al menú principal.
 
-<img width="900" height="550" alt="image" src="https://github.com/user-attachments/assets/2c88855e-58d0-4337-b5a2-00eb91313abe" />
+<img width="900" height="550" alt="image" src="https://github.com/user-attachments/assets/40e7410a-8a62-41bf-b911-f17b6f213d27" />
 
 ## 🛒 Pantalla de Canal de cliente
 
@@ -341,7 +341,7 @@ Esta pantalla permite administrar la información de los vendedores registrados 
 - Campo para buscar vendedores por nombre, correo o ID.
 - Botón “Buscar” para ejecutar la consulta.
 
-<img width="900" height="550" alt="image" src="https://github.com/user-attachments/assets/b72c24a0-dd76-49f5-83c4-a1e6291aef53" />
+<img width="900" height="550" alt="image" src="https://github.com/user-attachments/assets/028c8280-9895-4130-b22a-269be4eb7124" />
 
 # ETL Layer (Capa de extracción, transformación y carga)
 ### Descripción General
